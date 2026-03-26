@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # CYBERSECURITY-🛡️ CYBERSECURITY AWARENESS & PROTECTION PLATFORM
+=======
+# CYBERSECURITY-
+🛡️ CYBERSECURITY AWARENESS & PROTECTION PLATFORM
+>>>>>>> 20a3b368b4e830657e49bf3431b271b90618c7bc
 
 🚀 Overview
 
@@ -9,7 +14,11 @@ This project focuses on real-world problems like:
 - Phishing attacks
 - Deepfake scams
 - Fake certificates & identity fraud
+<<<<<<< HEAD
 - Unsafe browsing habits 
+=======
+- Unsafe browsing habits
+>>>>>>> 20a3b368b4e830657e49bf3431b271b90618c7bc
 
 The goal is simple:
 Make users aware + give them tools to protect themselves.
@@ -74,9 +83,14 @@ HTML| Structure
 CSS| Styling
 JavaScript| Functionality
 Git & GitHub| Version Control
+<<<<<<< HEAD
 VS Code| Development
 
 ---
+=======
+VS Code| Devel
+--
+>>>>>>> 20a3b368b4e830657e49bf3431b271b90618c7bc
 
 📂 Project Structure
 
@@ -87,6 +101,7 @@ CYBERSECURITY/
 │── /assets
 │── /modules
 
+<<<<<<< HEAD
 ---
 
 ⚙️ Installation & Setup
@@ -108,10 +123,13 @@ This project can be deployed using:
 
 📈 Future Improvements
 
+=======
+>>>>>>> 20a3b368b4e830657e49bf3431b271b90618c7bc
 - Real AI-based deepfake detection integration
 - Backend with database for tracking reports
 - User authentication system
 - Real-time threat alerts
+<<<<<<< HEAD
 - API integrations for security checks
 
 ---
@@ -146,3 +164,10 @@ Developed by Chinmayi
 Cybersecurity is not optional anymore.
 
 Stay aware. Stay safe.
+=======
+- API integrations for security check
+
+Cybersecurity is not optional anymore.
+
+Stay aware. Stay safe.
+>>>>>>> 20a3b368b4e830657e49bf3431b271b90618c7bc
