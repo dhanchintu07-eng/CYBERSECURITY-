@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* HERO */
+.hero {
+    padding: 50px;
+    font-size: 2rem;
+}
+
+/* CARDS */
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: perspective(1000px) rotateY(5deg);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05) rotateY(0deg);
+}
+
+/* DEEPFAKE BOX */
+.deepfake-box {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: cyan;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ffaa;
+}
+
+/* LOADER */
+.loader {
+    display: none;
+    margin: 20px auto;
+    border: 5px solid #ccc;
+    border-top: 5px solid cyan;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+/* AUTH */
+.auth-box {
+    margin-top: 40px;
+
+    body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    font-family: Arial;
+}
+
+.info-card {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.2);
+}
+
+#quote-box {
+    margin-top: 20px;
+    font-style: italic;
+    color: #38bdf8;
+}
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CyberShield AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="hero">
+    <h1>🛡️ CyberShield AI</h1>
+    <p>Detect. Defend. Dominate Cyber Threats</p>
+</div>
+
+<!-- INFO SECTION -->
+<div class="info-section">
+
+    <div class="card">
+        <h2>💻 What is Cybersecurity?</h2>
+        <p>Protecting systems, networks, and data from digital attacks.</p>
+    </div>
+
+    <div class="card">
+        <h2>⚠️ Why It Matters</h2>
+        <ul>
+            <li>💸 Financial fraud is rising</li>
+            <li>🎭 Deepfake scams are exploding</li>
+            <li>📱 Social accounts get hacked daily</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🚨 Common Frauds</h2>
+        <ul>
+            <li>📧 Phishing emails</li>
+            <li>🧠 AI-generated faces</li>
+            <li>🎓 Fake certificates</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- DEEPFAKE DEMO -->
+<div class="deepfake-box">
+
+    <h2>🧠 Deepfake Detector (AI Simulation)</h2>
+
+    <input type="file" id="imageInput">
+    <button onclick="analyzeImage()">Analyze Image</button>
+
+    <div class="loader" id="loader"></div>
+
+    <p id="result"></p>
+
+</div>
+
+<!-- AUTH -->
+<div class="auth-box">
+    <h2>🔐 Join CyberShield</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button onclick="enterApp()">Enter Dashboard</button>
+</div>
+
+<script src="script.js"></script>
+<script src="deepfake.js"></script>
+ 
+
+<div id="landing">
+    <button onclick="enterApp()">Enter</button>
+</div>
+
+<div id="app" style="display:none; opacity:0; transition:0.5s;">
+    <div id="cyber-info"></div>
+    <div id="quote-box"></div>
+    <div id="policy"></div>
+</div>
+</body>
+</html>
+
